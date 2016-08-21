@@ -1,0 +1,27 @@
+Three types of loops
+
+for 
+while
+while...do
+
+FOR
+
+for (var i = 0; i < array.length; i++) {
+
+}
+
+WHILE
+
+var i = 0;
+while (i < array.length) {
+  alert(i);
+  i++;
+}
+
+WHILE...DO
+
+var i = 0;
+do {
+  alert(i);
+  i++;
+} while(i < array.length);

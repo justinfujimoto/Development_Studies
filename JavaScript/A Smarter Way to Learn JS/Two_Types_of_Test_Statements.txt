@@ -1,0 +1,32 @@
+Test Cases
+
+if...else
+else
+switch cases
+
+
+
+IF...ELSE AND ELSE
+
+if (animals[i] === "pigs") {
+  alert("Pigs found!");
+}
+else if (animals[i] !== "sharks") {
+  alert("Sharks found!")
+}
+else {
+  alert("no match found!");
+}
+
+
+SWITCH CASE
+
+switch (animals[i]) {
+case "pigs" :
+  alert("Pigs found!");
+  breakl;
+case "sharks" :
+  alert("Sharks found!");
+default :
+  alert("No match found!")  
+}

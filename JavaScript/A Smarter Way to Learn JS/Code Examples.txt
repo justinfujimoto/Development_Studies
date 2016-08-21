@@ -1,0 +1,13 @@
+Noteworthy code:
+
+Combine elements into an empty array
+
+var firstNames = ["BlueRay", "Upchuck", "Lojack", "Gizmo", "Do-Rag"];
+var lastNames = ["Zzz", "Burp", "Dogbone", "Droop"];
+var fullNames = [];
+for (var x = 0; x < firstNames.length; x++) {
+  for (var y = 0; y < lastNames.length; y++) {
+    fullNames.push(firstNames[x] + lastNames[y]);
+    alert(fullNames); 
+  }
+}

@@ -1,0 +1,67 @@
+
+
+/*Border for h1 headers*/
+h1 {
+border-bottom:1px solid #313030;
+}
+
+/*Table of contents style*/
+.table-of-contents {
+	background-color: #74828f;
+	border-radius: 20px;
+	color: white;
+	padding: 10px;
+	border-style: solid;
+	border-color: black;
+	margin-left: auto;
+	margin-right: auto;
+	min-width: 960px;
+}
+
+/*Background layout for each section*/
+.background {
+	background-color: #fef6eb;
+	border-radius: 20px;
+	color: #525564;
+	padding: 10px;
+	border-style: solid;
+	border-color: #beb9b5;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/*Separating line between part 1 and part 2*/
+.part2-heading {
+	border-top-style: solid;
+	border-color: #3d2117;
+}
+
+/*Align text in the container*/
+.container {
+	width: 50%;
+	min-width: 960px;
+}
+
+/*Display: flex; DOM*/
+.container-flex {
+	display: flex;
+}
+
+/*Make this image fit smaller screens better*/
+.image {
+	max-width: 80%;
+}
+
+.title {
+	color: #234390;
+}
+
+tr > td
+ {
+  padding-bottom: 1em;
+  padding-right: 5em;
+}
+
+td {
+	padding-right: 5em;
+}
